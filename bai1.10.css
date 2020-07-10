@@ -1,0 +1,32 @@
+table{
+    width: 700px;
+    border: 2px solid red;
+    border-color: red;
+    border-collapse: collapse;
+    border-bottom: 4px solid blue;
+}
+.first{
+    color:white ;
+    background-color: #ff0000;
+    font-size: 20px;
+    text-align: right;
+    font-weight: bolder ;
+    border: #ff0000;
+}
+.second{
+    color: #ff0000;
+    background-color: #ffbbbb;
+    font-weight: bolder;
+    font-size: 28px;
+    text-align: center;
+}
+ img{
+    display: block;
+    max-width: 100px;
+    max-height: 20 px;
+    width: auto;
+    height: auto;
+}
+table,tr,td{
+    border: 1px solid red;
+}
