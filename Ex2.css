@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.scale-time{
+    display: flex;
+    justify-content: center;
+}
+#sltScaleTime{
+     width: 100px;
+    border: 1px solid black;  
+}
+.scale-time-detail1{
+    justify-content: center;
+    align-items: center;
+
+}
+.scale-time-time1{
+    justify-content: center;
+    margin: 20px 20px 0px 0px;
+    border: 1px solid white;
+    width: 50px;
+    height:50px;
+    float: left;
+    background-color: orange;
+    
+}
