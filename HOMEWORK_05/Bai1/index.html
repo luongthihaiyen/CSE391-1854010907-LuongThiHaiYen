@@ -1,143 +1,28 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-</head>
-<body>
-    <form>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <h3 class="text-color">Personal Information</h3>
-                    <hr>
-                    <p class="notification">Please fill in your personal data here !</p>
-                    <div class="row distance">
-                        <div class="col-sm-4">
-                            <label>Your name</label>
-                        </div>
-                        <div class="col-sm-8">
-                            <input type="text"/>
-                        </div>
-                    </div>
-                    <div class="row distance">
-                        <div class="col-sm-4">
-                            <label>Age</label>
-                        </div>
-                        <div class="col-sm-8">
-                            <input type="text"/>
-                        </div>
-                    </div>
-                    <div class="row distance">
-                        <div class="col-sm-4">
-                            <label>Address</label>
-                        </div>
-                        <div class="col-sm-8">
-                            <input type="text"/>
-                        </div>
-                    </div>
-                    <div class="row distance">
-                        <div class="col-sm-4">
-                            <label>Zip</label>
-                        </div>
-                        <div class="col-sm-8">
-                            <input type="text"/>
-                        </div>
-                    </div>
-                    <div class="row distance">
-                        <div class="col-sm-4">
-                            <label>City</label>
-                        </div>
-                        <div class="col-sm-8">
-                            <input type="text" />
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <h3 class="text-color">Your application</h3>
-                    <hr>
-                    <p class="notification">Please enter your application data here !</p>
-                    <div class="row distance">
-                        <div class="col-sm-4">
-                            <label>Select a job</label>
-                        </div>
-                        <div class="col-sm-8">
-                            <select id="style-list">
-                                <option selected disabled>Please choose</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="row distance">
-                        <div class="col-sm-4">
-                            <label>Job type</label>
-                        </div>
-                        <div class="col-sm-8">
-                            <input type="radio"><label>Fulltime</label><br>
-                            <input type="radio"><label>Partime</label><br>
-                            <input type="radio"><label>Less than 3 days</label><br>
-                            <input type="radio"><label>1 day a week</label>
-                        </div>
-                        <div class="row distance">
-                            <div class="col-sm-4">
-                                <label>Employment date</label>
-                            </div>
-                            <div class="col-sm-8">
-                                <input type="date">
-                            </div>
-                        </div>
-                        <div class="row distance">
-                            <div class="col-sm-4">
-                                <label>CV Files</label>
-                            </div>
-                            <div class="col-sm-8">
-                                <button><i class="fa fa-question-circle-o" aria-hidden="true"></i></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="contact">
-                <h3 class="text-color">Contact Data</h3>
-                <hr>
-                <div class="row distance">
-                    <div class="col-sm-4">
-                        <label>Phone</label>
-                    </div>
-                    <div class="col-sm-8">
-                        <input type="text" />
-                    </div>
-                </div>
-                <div class="row distance">
-                    <div class="col-sm-4">
-                        <label>Email</label>
-                    </div>
-                    <div class="col-sm-8">
-                        <input type="text" />
-                    </div>
-                </div>
-            </div>
-            <div class="security">
-                <h3 class="text-color">Security</h3>
-                <hr>
-                <div class="row ">
-                    <div class="col-sm-4">
-                        <label>Security</label>
-                    </div>
-                    <div class="col-sm-8" id="box-security">
-                        <input type="checkbox"><label>I'm not a robot</label>
-                    </div>
-                </div>
-                <hr>
-            </div>
-            <div class="btn-submit">
-                <input type="submit" class="btn" value="Submit" />
-            </div>
-        </div>
-    </form>
-</body>
+  <head>
+    <title>Bài 2</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <button type="button" class="btn btn-primary"><i class='fas fa-times' style='font-size:12px'></i> Remove it</button>
+    <button type="button" class="btn btn-success"><i class='fas fa-binoculars' style='font-size:12px;color:white'></i> Binoculars </button>
+    <button type="button" class="btn btn-info"><i class='fas fa-cart-plus'></i> Add to cart</button>
+    <button type="button" class="btn btn-warning"><i class='far fa-calendar-alt'></i> Celendar</button>
+    <br>
+    <button type="button" class="btn btn-light"><i class='fas fa-trash-alt'></i> Delete</button>
+    <button type="button" class="btn btn-outline-success"><i class='fas fa-wifi' style='font-size:12px'></i> Wifi</button>
+    <button type="button" class="btn btn-dark"><i class='fas fa-upload' style='font-size:12px;color:white'></i> Upload</button>
+    <button type="button" class="btn btn-outline-success"><i class='fas fa-download' style='font-size:12px'></i> Download</button>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>
