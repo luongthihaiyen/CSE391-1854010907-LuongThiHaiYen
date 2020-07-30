@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTH 5</title>
+</head>
+<body>
+    <style>
+       
+        #information{
+            display: flex;
+            color: cornflowerblue;
+        }
+        #personal{
+            width: 50%;
+            text-align: center;
+            color: cornflowerblue;
+            margin-right: 10px;
+        }
+        #application{
+            width: 50%;
+            text-align: center;
+            color: cornflowerblue;
+            margin-left: 10px;
+        }
+        h5{
+            background: cornflowerblue;
+            color: cornsilk;
+            padding: 10px;
+        }
+        .character::after{
+            content: "*";
+            color: red;
+        }
+        .characer-1::before{
+            content: "�";
+            
+        }
+        h3{
+            color: cornflowerblue;
+        }
+    </style>
+    <div id="wrapper">
+        <div id="information">
+            <div id="personal">
+                <h2>Personal Information</h2>
+                <hr style="border: 1px solid cornflowerblue ;"> 
+                <h5>Please fill your personal data here!</h5>
+                <form action="">
+                    <label for="name" class="character">Your name</label>
+                    <input type="text" name="name" id="name"><br><br>
+                    <label for="age" class="character">Age</label>
+                    <input type="text" name="age" id="age"><br><br>
+                    <label for="addres" class="character">Address</label>
+                    <input type="text" name="address" id="addres"><br><br>
+                    <label for="zip" class="character">Zip</label>
+                    <input type="text" name="zip" id="zip"><br><br>
+                    <label for="city" class="character">City</label>
+                    <input type="text" name="city" id="city"><br><br>
+                   
+
+                </form>
+                
+               
+            </div>
+            <div id="application">
+                <h2>Your Application</h2>
+                <hr style="border: 1px solid cornflowerblue ;"> 
+                <h5>Please fill your application data here!</h5>
+                <form action="">
+                    <label for="job" class="character">Select a job</label>
+                    <select name="" id="">
+                        <option value="">Please choose</option>
+                        <option value="">Doctor</option>
+                        <option value="">Teacher</option>
+                        <option value="">Engineer</option>
+                        <option value="">Dev</option>
+                    </select><br><br>
+                    <label for="job-type" class="character">Job type:</label>
+
+                    <input type="radio" name="job-type" id="job-type">
+                    <label for="job-type">Full time</label><br><br>
+                    <input type="radio" name="job-type" id="job-type">
+                    <label for="job-type">Parttime</label><br><br>
+                    <input type="radio" name="job-type" id="job-type">
+                    <label for="job-type">Less than 3 days</label><br><br>
+                    <input type="radio" name="job-type" id="job-type">
+                    <label for="job-type">1 day a week</label><br><br>
+                    <label for="" class="character">Employmet date</label>
+                    <input type="date" name="date" ><br><br>
+                    <label for="" class="characer-1">Cv files</label>
+                    <button><img src="https://res-4.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/uwtnzh3shfme8ug1c3aq" alt="" height="15px" width="15px"></button>
+
+                </form>
+                
+            </div>
+        </div>
+        <div id="contact">
+            <h3>Contact Data</h3>
+            <hr style="border: 1px solid cornflowerblue ;"> 
+            <label for="phone" class="character">Phone</label>
+            <input type="text" name="phone" id="phone"><br><br>
+            <label for="email" class="character">Email</label>
+            <input type="email" name="phone" id="email"><br><br>
+        </div>
+        <div id="security">
+            <h3>Security</h3>
+            <hr style="border: 1px solid cornflowerblue ;"> 
+            <label for="" class="character">Security</label>
+            
+            <hr style="border: 1px solid cornflowerblue ;"> 
+            <button><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTTU2B6Ve2EnmRQucREoWLRTnt2Lbnm69gTmg&usqp=CAU" alt="" height="15px" width="15px"></button>
+        </div>
+    </div>
+</body>
+</html>
